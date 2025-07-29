@@ -161,15 +161,15 @@ supportMenu.add(liveChat);
 supportMenu.add(helpCenter);
 
 
-        menuBar.add(homeMenu);
-        menuBar.add(flightsMenu);
-        menuBar.add(checkInMenu);
-        menuBar.add(supportMenu);
-        menuBar.add(profileMenu);
-        menuBar.add(aboutMenu);
-        menuBar.add(feedbackMenu);
+    menuBar.add(homeMenu);
+    menuBar.add(flightsMenu);
+    menuBar.add(checkInMenu);
+    menuBar.add(supportMenu);
+    menuBar.add(profileMenu);
+    menuBar.add(aboutMenu);
+    menuBar.add(feedbackMenu);
 
-      setVisible(true);
+    setVisible(true);
     }
 
     public void actionPerformed(ActionEvent ae){
